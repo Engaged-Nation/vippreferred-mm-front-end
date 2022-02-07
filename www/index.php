@@ -70,6 +70,6 @@ if ($clientDBName == 'vippreferred-mm_portal')
             }(jQuery)
         );
     </script>
-    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=vippreferred-mm&client_id=9beb2c53b184deb77e3fbf266f879ae3" type="text/javascript"></script>
+    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=vippreferred-mm&client_id=7d6a9708e8800103ccc13c12520e7285" type="text/javascript"></script>
 </body>
 </html>
