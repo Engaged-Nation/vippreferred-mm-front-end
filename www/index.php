@@ -3,12 +3,9 @@
 // planing to check the database name and change the client name for title
 $title = $description = '';
 
-$title = 'Million Dollar March Mania Challenge presented by _____';
-$description = "Take a shot at becoming a millionaire during the men's college basketball tournament! Play free games to win cash prizes and more all the way through the Big Dance.";
+$title = 'Million Dollar March Mania Challenge presented by Global Payments';
+$description = "";
 
-if ($clientDBName == 'vippreferred-mm_portal')
-    $title = "Welcome to the 2022 Million Dollar March Mania Challenge.";
-    $description = "Take a shot at becoming a millionaire during the men's college basketball tournament! Play free games to win cash prizes and more all the way through the Big Dance.";
 ?>
 <!DOCTYPE html>
 <html lang="en" class="setTo100 themed-layout">
@@ -17,6 +14,7 @@ if ($clientDBName == 'vippreferred-mm_portal')
     <?php require_once __DIR__ . '/../../vippreferred-mm-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php echo $description; ?>">
+    <meta name="robots" content="noindex, nofollow" />
     <base href="//<?php echo $enConfigClient['environment']['site_front_end']; ?>"/>
     <link rel="canonical" href="//<?php echo $enConfigClient['environment']['site_front_end']; ?>">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
